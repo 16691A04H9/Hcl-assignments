@@ -1,0 +1,8 @@
+
+name : krishna
+dob : 03-03-03
+marks 1: 80
+marks 2 : 80
+marks 3:80
+average :80
+total : 240

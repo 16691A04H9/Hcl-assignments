@@ -1,0 +1,94 @@
+package com.threads;
+
+public class TeamThreadMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ThreadGroup tg1=new ThreadGroup("velocity");
+		TeamThread tt=new TeamThread("velocity","a");
+		TeamThread tt1=new TeamThread("velocity","b");
+		TeamThread tt2=new TeamThread("velocity","c");
+		TeamThread tt3=new TeamThread("velocity","d");
+		TeamThread tt4=new TeamThread("velocity","e");
+		Thread t1=new Thread(tg1,tt,"a");
+		Thread t2=new Thread(tg1,tt1,"b");
+		Thread t3=new Thread(tg1,tt2,"c");
+		Thread t4=new Thread(tg1,tt3,"d");
+		Thread t5=new Thread(tg1,tt4,"e");
+		tt=new TeamThread("velocity","a");
+		tt1=new TeamThread("velocity","b");
+		tt2=new TeamThread("velocity","c");
+		tt3=new TeamThread("velocity","d");
+		tt4=new TeamThread("velocity","e");
+		t1.start();
+		t2.start();
+		t3.start();
+		t4.start();
+		t5.start();
+		ThreadGroup tg2=new ThreadGroup("java dalias");
+		TeamThread tt5=new TeamThread("java dalias","f");
+		TeamThread tt6=new TeamThread("java dalias","g");
+		TeamThread tt7=new TeamThread("java dalias","h");
+		TeamThread tt8=new TeamThread("java dalias","i");
+		TeamThread tt9=new TeamThread("java dalias","j");
+		Thread t6=new Thread(tg2,tt5,"f");
+		Thread t7=new Thread(tg2,tt6,"g");
+		Thread t8=new Thread(tg2,tt7,"h");
+		Thread t9=new Thread(tg2,tt8,"i");
+		Thread t10=new Thread(tg2,tt9,"j");
+		tt=new TeamThread("java dalias","f");
+		tt1=new TeamThread("java dalias","g");
+		tt2=new TeamThread("java dalias","h");
+		tt3=new TeamThread("java dalias","i");
+		tt4=new TeamThread("java dalias","j");
+		t6.start();
+		t7.start();
+		t8.start();
+		t9.start();
+		t10.start();
+		ThreadGroup tg3=new ThreadGroup("data pirates");
+		TeamThread tt10=new TeamThread("data pirates","k");
+		TeamThread tt11=new TeamThread("data pirates","l");
+		TeamThread tt12=new TeamThread("data pirates","m");
+		TeamThread tt13=new TeamThread("data pirates","n");
+		TeamThread tt14=new TeamThread("data pirates","o");
+		Thread t11=new Thread(tg3,tt10,"k");
+		Thread t12=new Thread(tg3,tt11,"l");
+		Thread t13=new Thread(tg3,tt12,"m");
+		Thread t14=new Thread(tg3,tt13,"n");
+		Thread t15=new Thread(tg3,tt14,"o");
+		tt10=new TeamThread("data pirates","k");
+		tt11=new TeamThread("data pirates","l");
+		tt12=new TeamThread("data pirates","m");
+		tt13=new TeamThread("data pirates","n");
+		tt14=new TeamThread("data pirates","o");
+		t11.start();
+		t12.start();
+		t13.start();
+		t14.start();
+		t15.start();
+		ThreadGroup tg4=new ThreadGroup("team quad");
+		TeamThread tt16=new TeamThread("quad","p");
+		TeamThread tt17=new TeamThread("quad","q");
+		TeamThread tt18=new TeamThread("quad","r");
+		TeamThread tt19=new TeamThread("quad","s");
+		TeamThread tt20=new TeamThread("quad","t");
+		Thread t16=new Thread(tg4,tt16,"p");
+		Thread t17=new Thread(tg4,tt17,"q");
+		Thread t18=new Thread(tg4,tt18,"r");
+		Thread t19=new Thread(tg4,tt19,"s");
+		Thread t20=new Thread(tg4,tt20,"t");
+		tt16=new TeamThread("quad","p");
+		tt17=new TeamThread("quad","q");
+		tt18=new TeamThread("quad","r");
+		tt19=new TeamThread("quad","s");
+		tt20=new TeamThread("quad","t");
+		t16.start();
+		t17.start();
+		t18.start();
+		t19.start();
+		t20.start();
+		//System.out.println(a.getParent());
+	}
+
+}
