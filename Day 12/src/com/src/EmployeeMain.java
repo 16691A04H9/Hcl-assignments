@@ -35,6 +35,14 @@ public class EmployeeMain {
 		Integer a=hs.stream().max((Double i,Double j)->i.salary<j.salary ? 1.0:-1.0)));
 		System.out.println("hello",a);
 		System.out.println(a);
+		List<Integer> li=(List) hs.stream()
+				.sorted((i,j)->(Integer)i.workingyears<(Integer)j.workingyears ?-1:1)
+				.collect(Collectors.toList());
+		System.out.println(li);
+		List<Integer> li1=(List) hs.stream().filter((t)->t.workingyears< 2)
+				.sorted((i,j)->(Integer)i.id<(Integer)j.id ?-1:1)
+				.collect(Collectors.toList());
+		System.out.println(li1);
 		
 	}
 
