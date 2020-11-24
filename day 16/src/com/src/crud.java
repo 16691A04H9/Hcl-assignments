@@ -42,23 +42,22 @@ public class crud {
 					}
 					break;
 				case 2:
-					String sql1 = "DELETE FROM students WHERE sname=?";
-
-					PreparedStatement statement1 = con.prepareStatement(sql1);
-					statement1.setString(1, "akshith");
-					int rowsDeleted = statement1.executeUpdate();
+					String d;
+					System.out.println("enter student to delete");
+					d=s.next();
+					int rowsDeleted = st.executeUpdate("DELETE FROM students WHERE sname='"+s+"'");
 					if (rowsDeleted > 0) {
-						System.out.println("A user was deleted successfully!");
+						System.out.println("A student was deleted successfully!");
 					}
 					break;
 				case 3:
-					String sql11 = "UPDATE students SET sname=? where sid=?";
-
-					PreparedStatement statement11 = con.prepareStatement(sql11);
-					statement11.setString(1, "chiru");
-					statement11.setString(2, "2");
-
-					int rowsUpdated = statement11.executeUpdate();
+					int id;
+					String s2;
+					System.out.println("enter student id to update");
+					id=s.nextInt();
+					System.out.println("enter student name to update");
+					s2=s.next();
+					int rowsUpdated = st.executeUpdate("UPDATE students SET sname='"+s2+"' where sid="+id+"");
 					if (rowsUpdated > 0) {
 						System.out.println("An existing student was updated successfully!");
 					}
