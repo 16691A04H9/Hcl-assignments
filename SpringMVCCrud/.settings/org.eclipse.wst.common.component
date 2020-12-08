@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SpringMVCCrud">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="spring-expression-4.0.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/H:/softwares/spring-framework-4.0.3.RELEASE-dist/spring-framework-4.0.3.RELEASE/libs/spring-expression-4.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-4.0.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/H:/softwares/spring-framework-4.0.3.RELEASE-dist/spring-framework-4.0.3.RELEASE/libs/spring-tx-4.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.0.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/H:/softwares/spring-framework-4.0.3.RELEASE-dist/spring-framework-4.0.3.RELEASE/libs/spring-core-4.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-4.0.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/H:/softwares/spring-framework-4.0.3.RELEASE-dist/spring-framework-4.0.3.RELEASE/libs/spring-webmvc-4.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.springframework.web.servlet-3.1.2.release.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Akshith/Downloads/org.springframework.web.servlet-3.1.2.release.jar/org.springframework.web.servlet-3.1.2.release.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-4.0.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/H:/softwares/spring-framework-4.0.3.RELEASE-dist/spring-framework-4.0.3.RELEASE/libs/spring-beans-4.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.0.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/H:/softwares/spring-framework-4.0.3.RELEASE-dist/spring-framework-4.0.3.RELEASE/libs/spring-web-4.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.0.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/H:/softwares/spring-framework-4.0.3.RELEASE-dist/spring-framework-4.0.3.RELEASE/libs/spring-aop-4.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-portlet-4.0.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/H:/softwares/spring-framework-4.0.3.RELEASE-dist/spring-framework-4.0.3.RELEASE/libs/spring-webmvc-portlet-4.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-4.0.3.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/H:/softwares/spring-framework-4.0.3.RELEASE-dist/spring-framework-4.0.3.RELEASE/libs/spring-context-4.0.3.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.2.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/H:/softwares/commons-logging-1.2.1.1.jar/commons-logging-1.2.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/H:/softwares/jstl-1.2.jar/jstl-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="SpringMVCCrud"/>
+        <property name="java-output-path" value="/SpringMVCCrud/build/classes"/>
+    </wb-module>
+</project-modules>
